@@ -16,7 +16,30 @@ h5 {
   font-weight: 800;
   color: #222222;
   border: 2px solid #eee;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .alert p, .success p, .warning p, .error p {
   margin: 0;
+}
+
+.success {
+  border-color: #4ea862;
+  background: rgba(78, 168, 98, 0.8);
+}
+
+.warning {
+  border-color: #e3962b;
+  background: rgba(227, 150, 43, 0.8);
+}
+
+.error {
+  border-color: #d72c16;
+  background: rgba(215, 44, 22, 0.8);
 }
